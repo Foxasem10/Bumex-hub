@@ -235,6 +235,10 @@ end)
 
 Tab4 = Library:Tab("GAMES 🕹️👾 العاب")
 
+Tab4:Button("Murder mystery 2 🔪",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script", true))()
+end)
+
 Tab4:Button("HOHO 💦",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
 end)
